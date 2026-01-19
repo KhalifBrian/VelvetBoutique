@@ -18,15 +18,8 @@ export default function Home() {
         
         {/* Content */}
         <div className="relative z-10 text-center space-y-8 px-4 py-20">
-          {/* Luxury badge */}
-          <div className="inline-block animate-fade-in">
-            <div className="border border-[#D4AF37] px-6 py-2 backdrop-blur-md">
-              <span className="text-[#D4AF37] text-xs tracking-[0.3em] uppercase">Est. 2024 • Premium Denim</span>
-            </div>
-          </div>
-          
           {/* Main heading with dramatic effect */}
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold animate-fade-in delay-100">
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold animate-fade-in">
             <span className="block text-white glow-gold">VELVET</span>
             <span className="block text-[#D4AF37] mt-2">BOUTIQUE</span>
           </h1>
