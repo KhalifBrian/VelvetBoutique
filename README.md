@@ -1,177 +1,148 @@
-# Velvet Boutique - Premium Ladies' Denim (Kenya)
+# 🛍️ Velvet Boutique - Luxury E-commerce Platform
 
-Premium e-commerce website for authentic ladies' denim in Kenya.
+A modern, elegant e-commerce platform built with Next.js, featuring a premium denim and fashion collection with integrated Stripe payments and Firebase authentication.
 
-## 🌍 Location & Currency
-- **Location:** Kenya
-- **Currency:** Kenyan Shillings (KSh)
-- **Timezone:** East Africa Time (EAT)
-- **Contact:** tenatious212@gmail.com | +1 (615) 414-7990
+## ✨ Features
 
-## 👖 Brands & Products
-Exclusive collection of 25 premium denim pieces from:
-- **VVIP** - Luxury denim with sophisticated silhouettes (6 products)
-- **7FAMK** - Iconic fits with superior stretch technology (6 products)
-- **DOJO JEANS** - Contemporary relaxed styles (6 products)
-- **KIMES** - Western-inspired ranch denim (7 products)
+- **🎨 Enhanced UI/UX**: Smooth animations, rounded corners, and user-friendly design
+- **🔐 Authentication**: Secure user registration and login with Firebase
+- **🛒 Shopping Cart**: Full cart management with add, remove, and update quantity
+- **💳 Stripe Integration**: Secure payment processing
+- **📱 Responsive Design**: Mobile-first approach with Tailwind CSS
+- **🔍 Product Filtering**: Filter by brand, price range, and sort options
+- **⭐ Product Features**: Featured products, stock indicators, and detailed product pages
+- **📧 Lengthy Email Support**: Expanded input fields for long email addresses
+- **🎯 Accessibility**: Large touch targets and clear visual feedback
 
-## 🚀 Features
-- Advanced user registration with password strength validation
-- Shopping cart with localStorage persistence
-- Product filtering by brand and price range
-- User dashboard with profile & address management
-- Comprehensive Terms & Conditions (Kenya-specific)
-- Detailed Privacy Policy (Data Protection Act compliant)
-- Responsive design (mobile/tablet/desktop)
-- Modern UI with animations and transitions
-
-## 🛒 Shipping
-- **Free shipping** on orders over KSh 19,500
-- Nairobi & surrounding: 1-3 business days
-- Major cities: 2-5 business days
-- Other locations: 3-7 business days
-
-## 💳 Payment Methods
-- M-Pesa (mobile money)
-- Credit/Debit Cards (Visa, Mastercard)
-- Bank Transfer
-
-## 📦 Returns & Exchanges
-- 30-day return policy
-- Free exchanges for size/color
-- Items must be unworn with original tags
-
-## 🛠️ Technology Stack
-- **Framework:** Next.js 14 (App Router)
-- **Styling:** Tailwind CSS
-- **Language:** TypeScript
-- **State:** React Hooks + localStorage
-- **Forms:** Zod validation
-- **Auth:** Firebase (ready, works in demo mode)
-- **Payments:** Stripe integration ready
-
-## 🚦 Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ installed
-- npm or yarn package manager
+
+- Node.js 18+ and npm
+- Firebase account
+- Stripe account
 
 ### Installation
-\`\`\`bash
-# Install dependencies
+
+1. Clone the repository:
+```bash
+git clone https://github.com/KhalifBrian/VelvetBoutique.git
+cd VelvetBoutique
+```
+
+2. Install dependencies:
+```bash
 npm install
+```
 
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-\`\`\`
-
-### Environment Variables
-Create a \`.env.local\` file:
-\`\`\`
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
-NEXT_PUBLIC_STORE_CURRENCY=KSh
-NEXT_PUBLIC_STORE_LOCALE=en-KE
-NEXT_PUBLIC_STORE_COUNTRY=KE
-
-# Firebase (optional - works in demo mode without)
+3. Set up environment variables:
+Create a `.env.local` file in the root directory:
+```env
+# Firebase Configuration
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
-# Stripe (optional - for checkout)
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_publishable_key
-STRIPE_SECRET_KEY=your_secret_key
+# Stripe Configuration
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_WEBHOOK_SECRET=your_webhook_secret
-\`\`\`
+```
+
+4. Run the development server:
+```bash
+npm run dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 🏗️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Authentication**: Firebase Auth
+- **Database**: Firebase Firestore
+- **Payments**: Stripe
+- **Language**: TypeScript
+- **Deployment**: Vercel-ready
 
 ## 📁 Project Structure
-\`\`\`
+
+```
 velvet-boutique/
 ├── app/                    # Next.js app directory
-│   ├── about/             # About page
 │   ├── api/               # API routes
-│   ├── cart/              # Shopping cart
+│   ├── cart/              # Shopping cart page
 │   ├── checkout/          # Checkout flow
-│   ├── contact/           # Contact page
-│   ├── dashboard/         # User dashboard
-│   ├── login/             # Login page
-│   ├── orders/            # Order history
-│   ├── privacy/           # Privacy policy
-│   ├── product/[id]/      # Product details
-│   ├── register/          # Registration page
-│   ├── shop/              # Product listing
-│   ├── terms/             # Terms & conditions
-│   └── ...
+│   ├── login/             # Authentication pages
+│   ├── product/           # Product detail pages
+│   └── shop/              # Shop listing page
 ├── components/            # Reusable components
-│   ├── Header.tsx         # Navigation header
-│   ├── Footer.tsx         # Site footer
-│   ├── ProductCard.tsx    # Product display card
-│   └── Protected.tsx      # Auth wrapper
-├── data/                  # Static data
-│   └── seed-products.json # Product catalog
-├── lib/                   # Utilities
-│   ├── auth.ts            # Authentication
-│   ├── cart.ts            # Cart management
-│   ├── firebase.ts        # Firebase config
-│   ├── stripe.ts          # Stripe integration
-│   └── validation.ts      # Form validation schemas
-└── ...
-\`\`\`
+├── lib/                   # Utility functions and configurations
+├── data/                  # Seed data and product information
+└── public/                # Static assets
+```
 
-## 🎨 Key Pages
-- **/** - Home page with featured products
-- **/shop** - Full product catalog with filters
-- **/product/[id]** - Individual product pages
-- **/cart** - Shopping cart
-- **/checkout** - Checkout process
-- **/register** - User registration
-- **/dashboard** - User account management
-- **/terms** - Terms & Conditions (Kenya-specific)
-- **/privacy** - Privacy Policy (Data Protection Act)
-- **/contact** - Contact information & FAQ
+## 🎨 Design Features
 
-## 📸 Image Notes
-**Important:** Product images should feature African models to reflect the Kenyan customer base. The current placeholder images from Unsplash should be replaced with:
-- Professional photos of African women modeling the denim
-- Diverse representation of Kenyan beauty
-- High-quality lifestyle shots in African settings
-- Consider working with Kenyan photographers/models
+- **Premium Gold Theme**: Elegant gold (#D4AF37) accents on black background
+- **Smooth Animations**: Hover effects, transitions, and micro-interactions
+- **Rounded Design**: Modern rounded corners throughout the interface
+- **Enhanced Forms**: Better padding, focus states, and accessibility
+- **Product Cards**: Interactive cards with image overlays and stock indicators
 
-## 🔐 Security & Compliance
-- SSL/TLS encryption for all data transmission
-- PCI DSS compliant payment processing
-- Compliant with Kenya Data Protection Act
-- Secure password hashing
-- CSRF protection
-- Input validation and sanitization
+## 📝 Available Scripts
 
-## 📱 Browser Support
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm start            # Start production server
+npm run lint         # Run ESLint
+```
+
+## 🔑 Key Pages
+
+- **Home** (`/`): Hero section and featured products
+- **Shop** (`/shop`): Full product catalog with filtering
+- **Product Details** (`/product/[id]`): Detailed product information
+- **Cart** (`/cart`): Shopping cart management
+- **Checkout** (`/checkout`): Secure checkout with Stripe
+- **Login/Register** (`/login`, `/register`): User authentication
+
+## 🌟 Recent Improvements
+
+- ✅ Fixed CSS compilation errors in globals.css
+- ✅ Enhanced button styling with rounded corners and hover effects
+- ✅ Improved form inputs with better padding and focus states
+- ✅ Expanded email input fields for lengthy email addresses
+- ✅ Enhanced product cards with better spacing and animations
+- ✅ Improved shopping cart UX with larger buttons and better feedback
+- ✅ Enhanced password strength indicator with visual feedback
 
 ## 🤝 Contributing
-This is a private commercial project. For inquiries, contact tenatious212@gmail.com.
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
-Proprietary - All rights reserved © 2026 Velvet Boutique
 
-## 📞 Support
-- **Email:** tenatious212@gmail.com
-- **Phone:** +1 (615) 414-7990
-- **Hours:** Monday-Friday, 9:00 AM - 6:00 PM EAT
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**KhalifBrian**
+- GitHub: [@KhalifBrian](https://github.com/KhalifBrian)
+- Email: khalifbrian@tutamail.com
+
+## 🙏 Acknowledgments
+
+- Next.js team for the amazing framework
+- Tailwind CSS for the utility-first CSS framework
+- Stripe for payment processing
+- Firebase for authentication and database
 
 ---
 
-Built with ❤️ in Kenya
+Made with ❤️ by KhalifBrian
