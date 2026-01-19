@@ -1,0 +1,755 @@
+[
+  {
+    "id": "vvip-luxury-high-waist-flare-dark",
+    "name": "VVIP Luxury High-Waist Flare Jeans",
+    "brand": "VVIP",
+    "category": "jeans",
+    "price": 1277,
+    "currency": "KSh",
+    "description": "Luxury denim with signature VVIP detailing. High-waist flare silhouette for a sophisticated, elongated look.",
+    "images": [
+      "https://images.unsplash.com/photo-1548883354-3b75849ae8cc?w=800",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Classic Blue",
+      "Black",
+      "Vintage Wash"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "vvip-boyfriend-distressed",
+    "name": "VVIP Boyfriend Distressed Jeans",
+    "brand": "VVIP",
+    "category": "jeans",
+    "price": 1297,
+    "currency": "KSh",
+    "description": "Relaxed boyfriend fit with artful distressing. Effortlessly cool with a luxe edge.",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Light Distressed",
+      "Medium Wash"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "vvip-straight-leg-classic",
+    "name": "VVIP Classic Straight Leg Jeans",
+    "brand": "VVIP",
+    "category": "jeans",
+    "price": 1246,
+    "currency": "KSh",
+    "description": "Timeless straight leg design with premium stretch denim. Perfect for everyday elegance.",
+    "images": [
+      "https://images.unsplash.com/photo-1548883354-3b75849ae8cc?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Indigo",
+      "Black",
+      "Grey"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "vvip-skinny-ankle-crop",
+    "name": "VVIP Skinny Ankle Crop Jeans",
+    "brand": "VVIP",
+    "category": "jeans",
+    "price": 1371,
+    "currency": "KSh",
+    "description": "Cropped ankle length with sleek skinny fit. Ideal for showcasing your favorite shoes.",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Navy"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "vvip-wide-leg-palazzo",
+    "name": "VVIP Wide Leg Palazzo Jeans",
+    "brand": "VVIP",
+    "category": "jeans",
+    "price": 1389,
+    "currency": "KSh",
+    "description": "Dramatic wide leg palazzo style for statement-making looks. Ultra-comfortable and chic.",
+    "images": [
+      "https://images.unsplash.com/photo-1548883354-3b75849ae8cc?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Ecru",
+      "Black",
+      "Chambray"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "vvip-bootcut-mid-rise",
+    "name": "VVIP Mid-Rise Bootcut Jeans",
+    "brand": "VVIP",
+    "category": "jeans",
+    "price": 1213,
+    "currency": "KSh",
+    "description": "Classic bootcut with modern mid-rise fit. Flattering for all body types.",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Dark Wash",
+      "Stone",
+      "Black"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "7famk-bootcut-classic",
+    "name": "7FAMK Classic Bootcut Jeans",
+    "brand": "7FAMK",
+    "category": "jeans",
+    "price": 1296,
+    "currency": "KSh",
+    "description": "Iconic bootcut design with superior stretch technology. Flattering fit that works with any footwear.",
+    "images": [
+      "https://images.unsplash.com/photo-1598522325074-042db73aa4e6?w=800",
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Medium Wash",
+      "Dark Rinse",
+      "Light Blue"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "7famk-high-rise-skinny",
+    "name": "7FAMK High Rise Skinny Jeans",
+    "brand": "7FAMK",
+    "category": "jeans",
+    "price": 1139,
+    "currency": "KSh",
+    "description": "High-rise skinny with exceptional stretch and shaping. Flattering from every angle.",
+    "images": [
+      "https://images.unsplash.com/photo-1598522325074-042db73aa4e6?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Black",
+      "Dark Blue",
+      "Grey"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "7famk-straight-leg-vintage",
+    "name": "7FAMK Vintage Straight Leg Jeans",
+    "brand": "7FAMK",
+    "category": "jeans",
+    "price": 1211,
+    "currency": "KSh",
+    "description": "Vintage-inspired straight leg with authentic wash. Timeless style meets modern comfort.",
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Vintage Blue",
+      "Faded Black",
+      "Light Wash"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "7famk-cropped-flare",
+    "name": "7FAMK Cropped Flare Jeans",
+    "brand": "7FAMK",
+    "category": "jeans",
+    "price": 1294,
+    "currency": "KSh",
+    "description": "Trendy cropped flare length perfect for warm weather. Effortlessly stylish silhouette.",
+    "images": [
+      "https://images.unsplash.com/photo-1598522325074-042db73aa4e6?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Denim Blue"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "7famk-slim-ankle",
+    "name": "7FAMK Slim Ankle Jeans",
+    "brand": "7FAMK",
+    "category": "jeans",
+    "price": 1390,
+    "currency": "KSh",
+    "description": "Sleek slim fit tapered to the ankle. Versatile style for any occasion.",
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Grey"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "7famk-wide-leg-trouser",
+    "name": "7FAMK Wide Leg Trouser Jeans",
+    "brand": "7FAMK",
+    "category": "jeans",
+    "price": 1229,
+    "currency": "KSh",
+    "description": "Sophisticated trouser-style wide leg. Perfect for work or weekend.",
+    "images": [
+      "https://images.unsplash.com/photo-1598522325074-042db73aa4e6?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Charcoal",
+      "Navy",
+      "Black"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "dojo-jeans-wide-leg-relaxed",
+    "name": "DOJO JEANS Relaxed Wide Leg",
+    "brand": "DOJO JEANS",
+    "category": "jeans",
+    "price": 948,
+    "currency": "KSh",
+    "description": "Contemporary wide-leg fit with a relaxed, comfortable feel. Perfect for creating effortlessly chic looks.",
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800",
+      "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Ecru",
+      "Black",
+      "Navy"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "dojo-jeans-cargo-utility",
+    "name": "DOJO JEANS Cargo Utility Jeans",
+    "brand": "DOJO JEANS",
+    "category": "jeans",
+    "price": 957,
+    "currency": "KSh",
+    "description": "Utility-inspired cargo jeans with functional pockets. Combines fashion and function seamlessly.",
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Olive",
+      "Black",
+      "Khaki"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "dojo-jeans-straight-vintage",
+    "name": "DOJO JEANS Vintage Straight",
+    "brand": "DOJO JEANS",
+    "category": "jeans",
+    "price": 1038,
+    "currency": "KSh",
+    "description": "Classic straight leg with authentic vintage wash. Timeless and versatile.",
+    "images": [
+      "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Vintage Blue",
+      "Black",
+      "Stone"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "dojo-jeans-tapered-ankle",
+    "name": "DOJO JEANS Tapered Ankle Jeans",
+    "brand": "DOJO JEANS",
+    "category": "jeans",
+    "price": 1015,
+    "currency": "KSh",
+    "description": "Modern tapered fit with clean ankle hem. Contemporary style with comfort.",
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Indigo",
+      "Black",
+      "Grey"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "dojo-jeans-mom-fit",
+    "name": "DOJO JEANS High-Waist Mom Jeans",
+    "brand": "DOJO JEANS",
+    "category": "jeans",
+    "price": 900,
+    "currency": "KSh",
+    "description": "Trendy mom jean fit with high waist and relaxed leg. Vintage vibes with modern comfort.",
+    "images": [
+      "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Light Wash",
+      "Medium Blue",
+      "Black"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "dojo-jeans-cropped-straight",
+    "name": "DOJO JEANS Cropped Straight Jeans",
+    "brand": "DOJO JEANS",
+    "category": "jeans",
+    "price": 937,
+    "currency": "KSh",
+    "description": "Cropped straight leg for a fresh, modern look. Perfect for spring and summer.",
+    "images": [
+      "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Blue"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "kimes-ranch-straight-western",
+    "name": "KIMES Ranch Straight Leg Western Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1024,
+    "currency": "KSh",
+    "description": "Western-inspired straight leg jeans with authentic ranch styling. Durable construction meets feminine fit.",
+    "images": [
+      "https://images.unsplash.com/photo-1603217039863-aa0c865404f7?w=800",
+      "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Classic Denim",
+      "Vintage Black",
+      "Stone Wash"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "kimes-betty-bootcut",
+    "name": "KIMES Betty Bootcut Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1060,
+    "currency": "KSh",
+    "description": "The iconic Betty fit - flattering mid-rise bootcut perfect for boots or heels.",
+    "images": [
+      "https://images.unsplash.com/photo-1603217039863-aa0c865404f7?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Dark Wash",
+      "Medium Wash",
+      "Black"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "kimes-high-rise-flare",
+    "name": "KIMES High-Rise Flare Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1172,
+    "currency": "KSh",
+    "description": "High-rise flare with western flair. Perfect for pairing with boots.",
+    "images": [
+      "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Medium Blue",
+      "Black",
+      "Light Wash"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "kimes-skinny-ranch",
+    "name": "KIMES Ranch Skinny Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1148,
+    "currency": "KSh",
+    "description": "Skinny fit with western detailing. Modern silhouette with ranch-inspired style.",
+    "images": [
+      "https://images.unsplash.com/photo-1603217039863-aa0c865404f7?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Dark Indigo",
+      "Black",
+      "Grey"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "kimes-boyfriend-relaxed",
+    "name": "KIMES Relaxed Boyfriend Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1040,
+    "currency": "KSh",
+    "description": "Relaxed boyfriend fit with western charm. Comfortable and stylish for everyday wear.",
+    "images": [
+      "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Light Distressed",
+      "Medium Wash",
+      "Stone"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "kimes-wide-leg-trouser",
+    "name": "KIMES Wide Leg Trouser Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1288,
+    "currency": "KSh",
+    "description": "Western-inspired wide leg trouser style. Sophisticated and unique.",
+    "images": [
+      "https://images.unsplash.com/photo-1603217039863-aa0c865404f7?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Charcoal"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "kimes-cropped-kick-flare",
+    "name": "KIMES Cropped Kick Flare Jeans",
+    "brand": "KIMES",
+    "category": "jeans",
+    "price": 1046,
+    "currency": "KSh",
+    "description": "Cropped kick flare with western detailing. Fresh take on classic western denim.",
+    "images": [
+      "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?w=800"
+    ],
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "colors": [
+      "Medium Wash",
+      "Black",
+      "Light Blue"
+    ],
+    "inStock": true,
+    "featured": false
+  }
+]
