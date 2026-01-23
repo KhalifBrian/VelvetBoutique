@@ -2,8 +2,10 @@
 import { useState } from 'react';
 import { signupSchema } from '@/lib/validation';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function RegisterPage() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -108,7 +110,7 @@ export default function RegisterPage() {
     
     try {
       // Use localStorage-based registration
-      const { registerUser } = await import('@/lib/user-storage');
+      const { registerUser, loginUser, setCurrentUser } = await import('@/lib/user-storage');
       const result = registerUser({
         email: formData.email,
         password: formData.password,
@@ -119,7 +121,20 @@ export default function RegisterPage() {
       });
       
       if (result.success) {
-        setRegistrationSuccess(true);
+        // Automatically log in the user after registration
+        const loginResult = loginUser(formData.email, formData.password);
+        if (loginResult.success && loginResult.user) {
+          setCurrentUser(loginResult.user);
+          // Dispatch custom event to notify header of login
+          window.dispatchEvent(new CustomEvent('userLoggedIn'));
+          // Redirect to dashboard after a brief delay to show success message
+          setTimeout(() => {
+            router.push('/dashboard');
+          }, 1500);
+          setRegistrationSuccess(true);
+        } else {
+          setErrors({ submit: 'Registration successful but login failed. Please sign in manually.' });
+        }
       } else {
         setErrors({ submit: result.message });
       }
