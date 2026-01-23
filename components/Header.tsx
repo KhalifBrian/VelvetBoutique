@@ -68,7 +68,10 @@ export default function Header() {
               </button>
             </>
           ) : (
-            <Link href="/login" className="hover:text-gold transition">Login</Link>
+            <>
+              <Link href="/login" className="hover:text-gold transition">Login</Link>
+              <Link href="/register" className="hover:text-gold transition">Sign Up</Link>
+            </>
           )}
           
           <Link href="/cart" className="relative hover:text-gold transition">
@@ -115,9 +118,14 @@ export default function Header() {
                 </button>
               </>
             ) : (
-              <Link href="/login" className="py-3 px-4 hover:bg-gold/10 hover:text-gold transition-all rounded-lg active:scale-95" onClick={() => setIsMenuOpen(false)}>
-                🔑 Login
-              </Link>
+              <>
+                <Link href="/login" className="py-3 px-4 hover:bg-gold/10 hover:text-gold transition-all rounded-lg active:scale-95" onClick={() => setIsMenuOpen(false)}>
+                  🔑 Login
+                </Link>
+                <Link href="/register" className="py-3 px-4 hover:bg-gold/10 hover:text-gold transition-all rounded-lg active:scale-95" onClick={() => setIsMenuOpen(false)}>
+                  ✍️ Sign Up
+                </Link>
+              </>
             )}
             
             <Link href="/cart" className="py-3 px-4 hover:bg-gold/10 hover:text-gold transition-all rounded-lg flex items-center gap-2 active:scale-95" onClick={() => setIsMenuOpen(false)}>
