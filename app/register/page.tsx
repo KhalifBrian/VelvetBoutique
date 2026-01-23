@@ -319,32 +319,34 @@ export default function RegisterPage() {
 
         {/* Terms and Newsletter */}
         <div className="space-y-4">
-          <label className="flex items-start gap-3 cursor-pointer group">
+          <div className="flex items-start gap-3 cursor-pointer group">
             <input
               type="checkbox"
+              id="acceptTerms"
               name="acceptTerms"
               checked={formData.acceptTerms}
               onChange={handleChange}
-              className="mt-1 w-5 h-5 rounded border-2 border-white/20 cursor-pointer"
+              className="flex-shrink-0 w-5 h-5 mt-1 cursor-pointer"
             />
-            <span className="text-sm group-hover:text-white/90 transition">
+            <label htmlFor="acceptTerms" className="text-sm group-hover:text-white/90 transition cursor-pointer">
               I accept the <Link href="/terms" className="text-gold hover:underline font-medium">Terms & Conditions</Link> and <Link href="/privacy" className="text-gold hover:underline font-medium">Privacy Policy</Link> <span className="text-red-500">*</span>
-            </span>
-          </label>
+            </label>
+          </div>
           {errors.acceptTerms && <p className="text-red-400 text-sm ml-8">{errors.acceptTerms}</p>}
 
-          <label className="flex items-start gap-3 cursor-pointer group">
+          <div className="flex items-start gap-3 cursor-pointer group">
             <input
               type="checkbox"
+              id="newsletter"
               name="newsletter"
               checked={formData.newsletter}
               onChange={handleChange}
-              className="mt-1 w-5 h-5 rounded border-2 border-white/20 cursor-pointer"
+              className="flex-shrink-0 w-5 h-5 mt-1 cursor-pointer"
             />
-            <span className="text-sm text-white/80 group-hover:text-white/90 transition">
+            <label htmlFor="newsletter" className="text-sm text-white/80 group-hover:text-white/90 transition cursor-pointer">
               Send me exclusive offers, new arrivals, and style tips
-            </span>
-          </label>
+            </label>
+          </div>
         </div>
 
         {/* Submit Error */}
