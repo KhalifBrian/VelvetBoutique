@@ -325,7 +325,7 @@ export default function RegisterPage() {
               name="acceptTerms"
               checked={formData.acceptTerms}
               onChange={handleChange}
-              className="mt-1 w-5 h-5 rounded border-2 border-white/20 cursor-pointer"
+              className="mt-1 w-5 h-5 rounded accent-gold bg-black border-2 border-[#D4AF37]/50 hover:border-[#D4AF37] cursor-pointer transition-all"
             />
             <span className="text-sm group-hover:text-white/90 transition">
               I accept the <Link href="/terms" className="text-gold hover:underline font-medium">Terms & Conditions</Link> and <Link href="/privacy" className="text-gold hover:underline font-medium">Privacy Policy</Link> <span className="text-red-500">*</span>
@@ -339,7 +339,7 @@ export default function RegisterPage() {
               name="newsletter"
               checked={formData.newsletter}
               onChange={handleChange}
-              className="mt-1 w-5 h-5 rounded border-2 border-white/20 cursor-pointer"
+              className="mt-1 w-5 h-5 rounded accent-gold bg-black border-2 border-[#D4AF37]/50 hover:border-[#D4AF37] cursor-pointer transition-all"
             />
             <span className="text-sm text-white/80 group-hover:text-white/90 transition">
               Send me exclusive offers, new arrivals, and style tips
