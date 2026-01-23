@@ -127,20 +127,23 @@ export default function RegisterPage() {
           setCurrentUser(loginResult.user);
           // Dispatch custom event to notify header of login
           window.dispatchEvent(new CustomEvent('userLoggedIn'));
+          // Show success message
+          setRegistrationSuccess(true);
           // Redirect to dashboard after a brief delay to show success message
           setTimeout(() => {
             router.push('/dashboard');
           }, 1500);
-          setRegistrationSuccess(true);
         } else {
           setErrors({ submit: 'Registration successful but login failed. Please sign in manually.' });
+          setIsSubmitting(false);
         }
       } else {
         setErrors({ submit: result.message });
+        setIsSubmitting(false);
       }
-    } catch (error) {
-      setErrors({ submit: 'Registration failed. Please try again.' });
-    } finally {
+    } catch (error: any) {
+      console.error('Registration error:', error);
+      setErrors({ submit: error?.message || 'Registration failed. Please try again.' });
       setIsSubmitting(false);
     }
   };
