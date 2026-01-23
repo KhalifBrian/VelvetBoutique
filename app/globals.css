@@ -107,7 +107,7 @@ body {
 }
 
 /* Enhanced form inputs */
-input, textarea, select {
+input:not([type="checkbox"]):not([type="radio"]), textarea, select {
   @apply min-h-[50px] text-base;
 }
 
